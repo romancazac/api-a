@@ -1,5 +1,6 @@
 {
-  "types": {
+  "data":{
+    "types": {
       "id": 1,
       "title": "Alege tipul de asigurare",
       "insuranceTypes": [
@@ -1613,6 +1614,7 @@
       "descr": "Partenerul tău de încredere pentru dezvoltare software personalizată și optimizare a proceselor de afaceri.",
       "keyWords": "încredere,Solutii,dezvoltare",
       "author": "Cazac Roman"
+  }
   },
   "users": [
     {
@@ -2547,5 +2549,7 @@
         }
       ]
     }
-  ]
+  ],
+  "comands":[],
+  "consult":[]
 }
