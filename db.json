@@ -1,0 +1,2551 @@
+{
+  "types": {
+      "id": 1,
+      "title": "Alege tipul de asigurare",
+      "insuranceTypes": [
+          {
+              "id": 1,
+              "label": "Carte verde",
+              "formName": "green card",
+              "price": 0.05,
+              "steps": [
+                  {
+                      "id": 1,
+                      "title": "Alege tipul autovehiculului",
+                      "cards": [
+                          {
+                              "id": 1,
+                              "title": "Motocicleta B",
+                              "icon": "icon-bike"
+                          },
+                          {
+                              "id": 2,
+                              "title": "Autoturisme A",
+                              "icon": "icon-car"
+                          },
+                          {
+                              "id": 3,
+                              "title": "Camion pînă la 3,5 tone",
+                              "icon": "icon-minitruck"
+                          },
+                          {
+                              "id": 4,
+                              "title": "Camion mai mult de 3,5 tone",
+                              "icon": "icon-truck"
+                          },
+                          {
+                              "id": 5,
+                              "title": "Microbus pînă la 20 locuri",
+                              "icon": "icon-minibus"
+                          },
+                          {
+                              "id": 6,
+                              "title": "Autobuz peste 20 locuri",
+                              "icon": "icon-bus"
+                          }
+                      ]
+                  },
+                  {
+                      "id": 2,
+                      "title": "Alege marca",
+                      "data": [
+                          {
+                              "id": 1,
+                              "title": "Marca",
+                              "name": "marca",
+                              "placeholder": "Introduceți marca"
+                          },
+                          {
+                              "id": 2,
+                              "title": "Model",
+                              "name": "model",
+                              "placeholder": "Introduceți modelul"
+                          },
+                          {
+                              "id": 3,
+                              "title": "Anul producerii",
+                              "name": "year",
+                              "option": [
+                                  {
+                                      "id": 1,
+                                      "title": "2010",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 2,
+                                      "title": "2011",
+                                      "price": 0.04
+                                  },
+                                  {
+                                      "id": 3,
+                                      "title": "2012",
+                                      "price": 0.03
+                                  },
+                                  {
+                                      "id": 4,
+                                      "title": "2013",
+                                      "price": 0.02
+                                  },
+                                  {
+                                      "id": 5,
+                                      "title": "2014",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 6,
+                                      "title": "2015",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 7,
+                                      "title": "2016",
+                                      "price": 0.03
+                                  },
+                                  {
+                                      "id": 8,
+                                      "title": "2017",
+                                      "price": 0.02
+                                  },
+                                  {
+                                      "id": 9,
+                                      "title": "2018",
+                                      "price": 0.02
+                                  },
+                                  {
+                                      "id": 10,
+                                      "title": "2019",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 11,
+                                      "title": "2020",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 12,
+                                      "title": "2021",
+                                      "price": 0.05
+                                  }
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "id": 3,
+                      "title": "Alege valoarea pe piață",
+                      "data": [
+                          {
+                              "id": 1,
+                              "title": "Valoarea de piață ( € )",
+                              "name": "carPrice",
+                              "placeholder": "0"
+                          },
+                          {
+                              "id": 2,
+                              "title": "Teritoriul de acoperire CASCO",
+                              "name": "teritoriu",
+                              "option": [
+                                  {
+                                      "id": 1,
+                                      "title": "RM",
+                                      "price": 0.02
+                                  },
+                                  {
+                                      "id": 2,
+                                      "title": "RM + CSI",
+                                      "price": 0.03
+                                  },
+                                  {
+                                      "id": 3,
+                                      "title": "RM + CSI + EU + TURCIA",
+                                      "price": 0.04
+                                  }
+                              ]
+                          },
+                          {
+                              "id": 3,
+                              "title": "Franșiza",
+                              "name": "franciz",
+                              "option": [
+                                  {
+                                      "id": 4,
+                                      "title": "Fără Franșiză",
+                                      "price": 0
+                                  },
+                                  {
+                                      "id": 5,
+                                      "title": "Cu aplicarea franșizei",
+                                      "price": 0.05
+                                  }
+                              ]
+                          }
+                      ]
+                  }
+              ],
+              "description": [
+                  {
+                      "id": 1,
+                      "title": "Obiectul asigurării",
+                      "text": "Prin asigurarea „Carte Verde” sunt protejate interesele terțelor persoane pentru pagubele produse vieții, sănătății și bunurilor lor în urma accidentelor rutiere, care au avut loc în afara hotarelor Republicii Moldova (pe teritoriul țărilor membre ale sistemului „Carte Verde”)."
+                  },
+                  {
+                      "id": 2,
+                      "title": "Riscuri și obligațiuni",
+                      "text": "Deces sau vătămări corporale; avarii sau distrugeri ale unor bunuri (inclusiv autovehicule), cauzate de asigurat terțelor persoane prin accidente de autovehicule pe teritoriul Republicii Moldova"
+                  }
+              ]
+          },
+          {
+              "id": 2,
+              "label": "RCA",
+              "formName": "rca",
+              "steps": [
+                  {
+                      "id": 1,
+                      "title": "Alege tipul autovehiculului",
+                      "data": [
+                          {
+                              "id": 1,
+                              "title": "Autovehicolul este înmatriculat în:",
+                              "name": "inmatriculat",
+                              "option": [
+                                  {
+                                      "id": 1,
+                                      "title": "Republica Moldova",
+                                      "price": 0.05
+                                  }
+                              ]
+                          },
+                          {
+                              "id": 2,
+                              "title": "Posesorul autovehicoluiui este persoană:",
+                              "name": "posesor",
+                              "option": [
+                                  {
+                                      "id": 2,
+                                      "title": "Fizica",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 3,
+                                      "title": "Jurdica",
+                                      "price": 0.03
+                                  }
+                              ]
+                          },
+                          {
+                              "id": 2,
+                              "title": "Domiciliul persoanei asigurate",
+                              "name": "domiciliu",
+                              "select": [
+                                  {
+                                      "id": 4,
+                                      "label": "Alte localitati",
+                                      "value": 0.03
+                                  },
+                                  {
+                                      "id": 5,
+                                      "label": "Chisinau, Hincesti, Orhei, Straseni, Ialoveni, Anenii Noi, Criuleni",
+                                      "value": 0.05
+                                  }
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "id": 2,
+                      "title": "Alege tipul autovehiculului",
+                      "cards": [
+                          {
+                              "id": 1,
+                              "title": "Autoturism cu pînă la 9 locuri",
+                              "icon": "icon-car"
+                          },
+                          {
+                              "id": 2,
+                              "title": "Autovehicule destinate transportului de pers...",
+                              "icon": "icon-bus"
+                          },
+                          {
+                              "id": 3,
+                              "title": "Tractoare rutiere avind puterea motorului",
+                              "icon": "icon-tractor"
+                          },
+                          {
+                              "id": 4,
+                              "title": "Camioane si alte autovehicule a caror m...",
+                              "icon": "icon-truck"
+                          },
+                          {
+                              "id": 5,
+                              "title": "Motociclete",
+                              "icon": "icon-bike"
+                          }
+                      ]
+                  },
+                  {
+                      "id": 3,
+                      "title": "Numarul de locuri",
+                      "data": [
+                          {
+                              "id": 1,
+                              "title": "Numarul de locuri",
+                              "name": "locuri",
+                              "select": [
+                                  {
+                                      "id": 1,
+                                      "label": "Pina la 17 locuri, inclusiv al conducatorului",
+                                      "value": 0.03
+                                  },
+                                  {
+                                      "id": 2,
+                                      "label": "De la 18 pina la 30 locuri, inclusiv al conducatorului",
+                                      "value": 0.05
+                                  },
+                                  {
+                                      "id": 3,
+                                      "label": "Cu peste 30 locuri",
+                                      "value": 0.05
+                                  },
+                                  {
+                                      "id": 4,
+                                      "label": "Troleibuze",
+                                      "value": 0.05
+                                  }
+                              ]
+                          },
+                          {
+                              "id": 2,
+                              "title": "Numărul persoanelor admise la conducere:",
+                              "name": "person",
+                              "select": [
+                                  {
+                                      "id": 1,
+                                      "label": "Limitat",
+                                      "value": 0.03
+                                  },
+                                  {
+                                      "id": 2,
+                                      "label": "Nelimitat",
+                                      "value": 0.05
+                                  }
+                              ]
+                          },
+                          {
+                              "id": 3,
+                              "title": "Stagiul de conducere a posesorului:",
+                              "name": "stagiu",
+                              "select": [
+                                  {
+                                      "id": 1,
+                                      "label": "Pina la un an",
+                                      "value": 0.03
+                                  },
+                                  {
+                                      "id": 2,
+                                      "label": "Doi ani",
+                                      "value": 0.05
+                                  },
+                                  {
+                                      "id": 3,
+                                      "label": "Mai mult de cinci ani",
+                                      "value": 0.05
+                                  }
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "id": 4,
+                      "title": "Date Personale",
+                      "data": [
+                          {
+                              "id": 1,
+                              "title": "Sunteti pensionar sau aveti grad de invaliditate?",
+                              "name": "personalDate",
+                              "option": [
+                                  {
+                                      "id": 1,
+                                      "title": "DA",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 2,
+                                      "title": "NU",
+                                      "price": 0.06
+                                  }
+                              ]
+                          },
+                          {
+                              "id": 2,
+                              "title": "Aţi mai încheiat contract de asigurare RCA?",
+                              "name": "contract",
+                              "option": [
+                                  {
+                                      "id": 3,
+                                      "title": "DA",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 4,
+                                      "title": "NU",
+                                      "price": 0.06
+                                  }
+                              ]
+                          },
+                          {
+                              "id": 3,
+                              "title": "Asigurare pentru remorci",
+                              "name": "remorc",
+                              "option": [
+                                  {
+                                      "id": 5,
+                                      "title": "DA",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 6,
+                                      "title": "NU",
+                                      "price": 0.06
+                                  }
+                              ]
+                          }
+                      ]
+                  }
+              ],
+              "description": [
+                  {
+                      "id": 1,
+                      "title": "Obiectul asigurării",
+                      "text": "Autovehicule înmatriculate în Republica Moldova, care aparţin persoanelor fizice şi juridice,Echipamentul suplimentar, care nu intră în dotarea autovehiculului conform listei de dotări ale uzinei producătoare. Conducătorul auto şi pasagerii, pentru cazuri de accidente care pot avea loc în timpul accidentelor rutiere"
+                  },
+                  {
+                      "id": 2,
+                      "title": "Riscuri și obligațiuni",
+                      "text": " DAUNE - prejudiciile materiale cauzate Asiguratului prin deteriorarea sau distrugerea autovehiculului şi a echipamentului suplimentar ca urmare a: a. tamponării, lovirii sau ciocnirii cu un alt autovehicul, obiect; trecerii peste orice fel de obiecte statice sau în mişcare; căderii; căderii pe autovehicul a unor obiecte străine; derapării; răsturnării; alunecării; b. incendiului, descărcării electrice, exploziei, ploii torenţiale, grindinei, inundaţiei, uraganului, cutremurului de pămînt, surpărilor, alunecărilor de teren, căderilor abundente de zăpadă, avalanşelor, inclusiv acţiunea directă sau indirectă a acestora; - „FURT” – furtul, jaful, tîlhăria, răpirea autovehicului, a părţilor componente sau pieselor acestuia; orice daune cauzate ca urmare a furtului, jafului, tîlhăriei, răpirei sau tentativei de furt, jaf, tîlharie, răpire a autovehicului, a părţilor lui componente şi a pieselor, echipamentului primit în asigurare, precum şi a echipamentului suplimentar şi accesoriilor dacă acestea sunt asigurate conform contractului de asigurare. -„ACCIDENT” – cauzarea leziunilor corporale sau decesul conducătorului auto/pasagerilor ca rezultat al unui accident rutier. AUTOCASCO - pachetul complet de riscuri, compus din grupurile de risc DAUNĂ şi FURT, care poate include suplimentar riscul ACCIDENT."
+                  }
+              ]
+          },
+          {
+              "id": 3,
+              "label": "Casco",
+              "formName": "casco",
+              "price": 0.05,
+              "steps": [
+                  {
+                      "id": 1,
+                      "title": "Alege tipul autovehiculului",
+                      "cards": [
+                          {
+                              "id": 1,
+                              "title": "Autoturism cu pînă la 9 locuri",
+                              "icon": "icon-car"
+                          },
+                          {
+                              "id": 2,
+                              "title": "Camion pînă la 3,5 tone",
+                              "icon": "icon-minitruck"
+                          },
+                          {
+                              "id": 3,
+                              "title": "Camion mai mult de 3,5 tone",
+                              "icon": "icon-truck"
+                          },
+                          {
+                              "id": 4,
+                              "title": "Microbus pînă la 20 locuri",
+                              "icon": "icon-minibus"
+                          },
+                          {
+                              "id": 5,
+                              "title": "Autobuz peste 20 locuri",
+                              "icon": "icon-bus"
+                          },
+                          {
+                              "id": 6,
+                              "title": "Remorci, semiremorci",
+                              "icon": "icon-trailer"
+                          },
+                          {
+                              "id": 7,
+                              "title": "Refrigeratoare, cisterne",
+                              "icon": "icon-refrigerant"
+                          },
+                          {
+                              "id": 8,
+                              "title": "Tehnică specială",
+                              "icon": "icon-technique"
+                          },
+                          {
+                              "id": 9,
+                              "title": "Echipament suplimentar",
+                              "icon": "icon-other-technique"
+                          }
+                      ]
+                  },
+                  {
+                      "id": 2,
+                      "title": "Alege marca",
+                      "data": [
+                          {
+                              "id": 1,
+                              "title": "Marca",
+                              "name": "marca",
+                              "placeholder": "Introduceți marca"
+                          },
+                          {
+                              "id": 2,
+                              "title": "Model",
+                              "name": "model",
+                              "placeholder": "Introduceți modelul"
+                          },
+                          {
+                              "id": 3,
+                              "title": "Anul producerii",
+                              "name": "year",
+                              "option": [
+                                  {
+                                      "id": 1,
+                                      "title": "2010",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 2,
+                                      "title": "2011",
+                                      "price": 0.04
+                                  },
+                                  {
+                                      "id": 3,
+                                      "title": "2012",
+                                      "price": 0.03
+                                  },
+                                  {
+                                      "id": 4,
+                                      "title": "2013",
+                                      "price": 0.02
+                                  },
+                                  {
+                                      "id": 5,
+                                      "title": "2014",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 6,
+                                      "title": "2015",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 7,
+                                      "title": "2016",
+                                      "price": 0.03
+                                  },
+                                  {
+                                      "id": 8,
+                                      "title": "2017",
+                                      "price": 0.02
+                                  },
+                                  {
+                                      "id": 9,
+                                      "title": "2018",
+                                      "price": 0.02
+                                  },
+                                  {
+                                      "id": 10,
+                                      "title": "2019",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 11,
+                                      "title": "2020",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 12,
+                                      "title": "2021",
+                                      "price": 0.05
+                                  }
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "id": 3,
+                      "title": "Alege valoarea pe piață",
+                      "data": [
+                          {
+                              "id": 1,
+                              "title": "Valoarea de piață ( € )",
+                              "name": "carPrice",
+                              "placeholder": "0"
+                          },
+                          {
+                              "id": 2,
+                              "title": "Teritoriul de acoperire CASCO",
+                              "name": "teritoriu",
+                              "option": [
+                                  {
+                                      "id": 1,
+                                      "title": "RM",
+                                      "price": 0.02
+                                  },
+                                  {
+                                      "id": 2,
+                                      "title": "RM + CSI",
+                                      "price": 0.03
+                                  },
+                                  {
+                                      "id": 3,
+                                      "title": "RM + CSI + EU + TURCIA",
+                                      "price": 0.04
+                                  }
+                              ]
+                          },
+                          {
+                              "id": 3,
+                              "title": "Franșiza",
+                              "name": "franciz",
+                              "option": [
+                                  {
+                                      "id": 4,
+                                      "title": "Fără Franșiză",
+                                      "price": 0
+                                  },
+                                  {
+                                      "id": 5,
+                                      "title": "Cu aplicarea franșizei",
+                                      "price": 0.05
+                                  }
+                              ]
+                          }
+                      ]
+                  }
+              ],
+              "description": [
+                  {
+                      "id": 1,
+                      "title": "Obiectul asigurării",
+                      "text": "Autovehicule înmatriculate în Republica Moldova, care aparţin persoanelor fizice şi juridice,Echipamentul suplimentar, care nu intră în dotarea autovehiculului conform listei de dotări ale uzinei producătoare. Conducătorul auto şi pasagerii, pentru cazuri de accidente care pot avea loc în timpul accidentelor rutiere"
+                  },
+                  {
+                      "id": 2,
+                      "title": "Riscuri și obligațiuni",
+                      "text": " DAUNE - prejudiciile materiale cauzate Asiguratului prin deteriorarea sau distrugerea autovehiculului şi a echipamentului suplimentar ca urmare a: a. tamponării, lovirii sau ciocnirii cu un alt autovehicul, obiect; trecerii peste orice fel de obiecte statice sau în mişcare; căderii; căderii pe autovehicul a unor obiecte străine; derapării; răsturnării; alunecării; b. incendiului, descărcării electrice, exploziei, ploii torenţiale, grindinei, inundaţiei, uraganului, cutremurului de pămînt, surpărilor, alunecărilor de teren, căderilor abundente de zăpadă, avalanşelor, inclusiv acţiunea directă sau indirectă a acestora; - „FURT” – furtul, jaful, tîlhăria, răpirea autovehicului, a părţilor componente sau pieselor acestuia; orice daune cauzate ca urmare a furtului, jafului, tîlhăriei, răpirei sau tentativei de furt, jaf, tîlharie, răpire a autovehicului, a părţilor lui componente şi a pieselor, echipamentului primit în asigurare, precum şi a echipamentului suplimentar şi accesoriilor dacă acestea sunt asigurate conform contractului de asigurare. -„ACCIDENT” – cauzarea leziunilor corporale sau decesul conducătorului auto/pasagerilor ca rezultat al unui accident rutier. AUTOCASCO - pachetul complet de riscuri, compus din grupurile de risc DAUNĂ şi FURT, care poate include suplimentar riscul ACCIDENT."
+                  }
+              ]
+          },
+          {
+              "id": 4,
+              "label": "Medicală",
+              "formName": "medical",
+              "price": 0.05,
+              "steps": [
+                  {
+                      "id": 1,
+                      "title": "Alege tipul autovehiculului",
+                      "cards": [
+                          {
+                              "id": 1,
+                              "title": "Autoturism cu pînă la 9 locuri",
+                              "icon": "icon-car"
+                          },
+                          {
+                              "id": 2,
+                              "title": "Camion pînă la 3,5 tone",
+                              "icon": "icon-minitruck"
+                          },
+                          {
+                              "id": 3,
+                              "title": "Camion mai mult de 3,5 tone",
+                              "icon": "icon-truck"
+                          },
+                          {
+                              "id": 4,
+                              "title": "Microbus pînă la 20 locuri",
+                              "icon": "icon-minibus"
+                          },
+                          {
+                              "id": 5,
+                              "title": "Autobuz peste 20 locuri",
+                              "icon": "icon-bus"
+                          },
+                          {
+                              "id": 6,
+                              "title": "Remorci, semiremorci",
+                              "icon": "icon-trailer"
+                          },
+                          {
+                              "id": 7,
+                              "title": "Refrigeratoare, cisterne",
+                              "icon": "icon-refrigerant"
+                          },
+                          {
+                              "id": 8,
+                              "title": "Tehnică specială",
+                              "icon": "icon-technique"
+                          },
+                          {
+                              "id": 9,
+                              "title": "Echipament suplimentar",
+                              "icon": "icon-other-technique"
+                          }
+                      ]
+                  },
+                  {
+                      "id": 2,
+                      "title": "Alege marca",
+                      "data": [
+                          {
+                              "id": 1,
+                              "title": "Marca",
+                              "name": "marca",
+                              "placeholder": "Introduceți marca"
+                          },
+                          {
+                              "id": 2,
+                              "title": "Model",
+                              "name": "model",
+                              "placeholder": "Introduceți modelul"
+                          },
+                          {
+                              "id": 3,
+                              "title": "Anul producerii",
+                              "name": "year",
+                              "option": [
+                                  {
+                                      "id": 1,
+                                      "title": "2010",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 2,
+                                      "title": "2011",
+                                      "price": 0.04
+                                  },
+                                  {
+                                      "id": 3,
+                                      "title": "2012",
+                                      "price": 0.03
+                                  },
+                                  {
+                                      "id": 4,
+                                      "title": "2013",
+                                      "price": 0.02
+                                  },
+                                  {
+                                      "id": 5,
+                                      "title": "2014",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 6,
+                                      "title": "2015",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 7,
+                                      "title": "2016",
+                                      "price": 0.03
+                                  },
+                                  {
+                                      "id": 8,
+                                      "title": "2017",
+                                      "price": 0.02
+                                  },
+                                  {
+                                      "id": 9,
+                                      "title": "2018",
+                                      "price": 0.02
+                                  },
+                                  {
+                                      "id": 10,
+                                      "title": "2019",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 11,
+                                      "title": "2020",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 12,
+                                      "title": "2021",
+                                      "price": 0.05
+                                  }
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "id": 3,
+                      "title": "Alege valoarea pe piață",
+                      "data": [
+                          {
+                              "id": 1,
+                              "title": "Valoarea de piață ( € )",
+                              "name": "carPrice",
+                              "placeholder": "0"
+                          },
+                          {
+                              "id": 2,
+                              "title": "Teritoriul de acoperire CASCO",
+                              "name": "teritoriu",
+                              "option": [
+                                  {
+                                      "id": 1,
+                                      "title": "RM",
+                                      "price": 0.02
+                                  },
+                                  {
+                                      "id": 2,
+                                      "title": "RM + CSI",
+                                      "price": 0.03
+                                  },
+                                  {
+                                      "id": 3,
+                                      "title": "RM + CSI + EU + TURCIA",
+                                      "price": 0.04
+                                  }
+                              ]
+                          },
+                          {
+                              "id": 3,
+                              "title": "Franșiza",
+                              "name": "franciz",
+                              "option": [
+                                  {
+                                      "id": 4,
+                                      "title": "Fără Franșiză",
+                                      "price": 0
+                                  },
+                                  {
+                                      "id": 5,
+                                      "title": "Cu aplicarea franșizei",
+                                      "price": 0.05
+                                  }
+                              ]
+                          }
+                      ]
+                  }
+              ],
+              "description": [
+                  {
+                      "id": 1,
+                      "title": "Obiectul asigurării",
+                      "text": "Autovehicule înmatriculate în Republica Moldova, care aparţin persoanelor fizice şi juridice,Echipamentul suplimentar, care nu intră în dotarea autovehiculului conform listei de dotări ale uzinei producătoare. Conducătorul auto şi pasagerii, pentru cazuri de accidente care pot avea loc în timpul accidentelor rutiere"
+                  },
+                  {
+                      "id": 2,
+                      "title": "Riscuri și obligațiuni",
+                      "text": " DAUNE - prejudiciile materiale cauzate Asiguratului prin deteriorarea sau distrugerea autovehiculului şi a echipamentului suplimentar ca urmare a: a. tamponării, lovirii sau ciocnirii cu un alt autovehicul, obiect; trecerii peste orice fel de obiecte statice sau în mişcare; căderii; căderii pe autovehicul a unor obiecte străine; derapării; răsturnării; alunecării; b. incendiului, descărcării electrice, exploziei, ploii torenţiale, grindinei, inundaţiei, uraganului, cutremurului de pămînt, surpărilor, alunecărilor de teren, căderilor abundente de zăpadă, avalanşelor, inclusiv acţiunea directă sau indirectă a acestora; - „FURT” – furtul, jaful, tîlhăria, răpirea autovehicului, a părţilor componente sau pieselor acestuia; orice daune cauzate ca urmare a furtului, jafului, tîlhăriei, răpirei sau tentativei de furt, jaf, tîlharie, răpire a autovehicului, a părţilor lui componente şi a pieselor, echipamentului primit în asigurare, precum şi a echipamentului suplimentar şi accesoriilor dacă acestea sunt asigurate conform contractului de asigurare. -„ACCIDENT” – cauzarea leziunilor corporale sau decesul conducătorului auto/pasagerilor ca rezultat al unui accident rutier. AUTOCASCO - pachetul complet de riscuri, compus din grupurile de risc DAUNĂ şi FURT, care poate include suplimentar riscul ACCIDENT."
+                  }
+              ]
+          },
+          {
+              "id": 5,
+              "label": "Bunuri",
+              "formName": "bunuri",
+              "price": 0.05,
+              "steps": [
+                  {
+                      "id": 1,
+                      "title": "Alege tipul autovehiculului",
+                      "cards": [
+                          {
+                              "id": 1,
+                              "title": "Autoturism cu pînă la 9 locuri",
+                              "icon": "icon-car"
+                          },
+                          {
+                              "id": 2,
+                              "title": "Camion pînă la 3,5 tone",
+                              "icon": "icon-minitruck"
+                          },
+                          {
+                              "id": 3,
+                              "title": "Camion mai mult de 3,5 tone",
+                              "icon": "icon-truck"
+                          },
+                          {
+                              "id": 4,
+                              "title": "Microbus pînă la 20 locuri",
+                              "icon": "icon-minibus"
+                          },
+                          {
+                              "id": 5,
+                              "title": "Autobuz peste 20 locuri",
+                              "icon": "icon-bus"
+                          },
+                          {
+                              "id": 6,
+                              "title": "Remorci, semiremorci",
+                              "icon": "icon-trailer"
+                          },
+                          {
+                              "id": 7,
+                              "title": "Refrigeratoare, cisterne",
+                              "icon": "icon-refrigerant"
+                          },
+                          {
+                              "id": 8,
+                              "title": "Tehnică specială",
+                              "icon": "icon-technique"
+                          },
+                          {
+                              "id": 9,
+                              "title": "Echipament suplimentar",
+                              "icon": "icon-other-technique"
+                          }
+                      ]
+                  },
+                  {
+                      "id": 2,
+                      "title": "Alege marca",
+                      "data": [
+                          {
+                              "id": 1,
+                              "title": "Marca",
+                              "name": "marca",
+                              "placeholder": "Introduceți marca"
+                          },
+                          {
+                              "id": 2,
+                              "title": "Model",
+                              "name": "model",
+                              "placeholder": "Introduceți modelul"
+                          },
+                          {
+                              "id": 3,
+                              "title": "Anul producerii",
+                              "name": "year",
+                              "option": [
+                                  {
+                                      "id": 1,
+                                      "title": "2010",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 2,
+                                      "title": "2011",
+                                      "price": 0.04
+                                  },
+                                  {
+                                      "id": 3,
+                                      "title": "2012",
+                                      "price": 0.03
+                                  },
+                                  {
+                                      "id": 4,
+                                      "title": "2013",
+                                      "price": 0.02
+                                  },
+                                  {
+                                      "id": 5,
+                                      "title": "2014",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 6,
+                                      "title": "2015",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 7,
+                                      "title": "2016",
+                                      "price": 0.03
+                                  },
+                                  {
+                                      "id": 8,
+                                      "title": "2017",
+                                      "price": 0.02
+                                  },
+                                  {
+                                      "id": 9,
+                                      "title": "2018",
+                                      "price": 0.02
+                                  },
+                                  {
+                                      "id": 10,
+                                      "title": "2019",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 11,
+                                      "title": "2020",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 12,
+                                      "title": "2021",
+                                      "price": 0.05
+                                  }
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "id": 3,
+                      "title": "Alege valoarea pe piață",
+                      "data": [
+                          {
+                              "id": 1,
+                              "title": "Valoarea de piață ( € )",
+                              "name": "carPrice",
+                              "placeholder": "0"
+                          },
+                          {
+                              "id": 2,
+                              "title": "Teritoriul de acoperire CASCO",
+                              "name": "teritoriu",
+                              "option": [
+                                  {
+                                      "id": 1,
+                                      "title": "RM",
+                                      "price": 0.02
+                                  },
+                                  {
+                                      "id": 2,
+                                      "title": "RM + CSI",
+                                      "price": 0.03
+                                  },
+                                  {
+                                      "id": 3,
+                                      "title": "RM + CSI + EU + TURCIA",
+                                      "price": 0.04
+                                  }
+                              ]
+                          },
+                          {
+                              "id": 3,
+                              "title": "Franșiza",
+                              "name": "franciz",
+                              "option": [
+                                  {
+                                      "id": 4,
+                                      "title": "Fără Franșiză",
+                                      "price": 0
+                                  },
+                                  {
+                                      "id": 5,
+                                      "title": "Cu aplicarea franșizei",
+                                      "price": 0.05
+                                  }
+                              ]
+                          }
+                      ]
+                  }
+              ],
+              "description": [
+                  {
+                      "id": 1,
+                      "title": "Obiectul asigurării",
+                      "text": "Autovehicule înmatriculate în Republica Moldova, care aparţin persoanelor fizice şi juridice,Echipamentul suplimentar, care nu intră în dotarea autovehiculului conform listei de dotări ale uzinei producătoare. Conducătorul auto şi pasagerii, pentru cazuri de accidente care pot avea loc în timpul accidentelor rutiere"
+                  },
+                  {
+                      "id": 2,
+                      "title": "Riscuri și obligațiuni",
+                      "text": " DAUNE - prejudiciile materiale cauzate Asiguratului prin deteriorarea sau distrugerea autovehiculului şi a echipamentului suplimentar ca urmare a: a. tamponării, lovirii sau ciocnirii cu un alt autovehicul, obiect; trecerii peste orice fel de obiecte statice sau în mişcare; căderii; căderii pe autovehicul a unor obiecte străine; derapării; răsturnării; alunecării; b. incendiului, descărcării electrice, exploziei, ploii torenţiale, grindinei, inundaţiei, uraganului, cutremurului de pămînt, surpărilor, alunecărilor de teren, căderilor abundente de zăpadă, avalanşelor, inclusiv acţiunea directă sau indirectă a acestora; - „FURT” – furtul, jaful, tîlhăria, răpirea autovehicului, a părţilor componente sau pieselor acestuia; orice daune cauzate ca urmare a furtului, jafului, tîlhăriei, răpirei sau tentativei de furt, jaf, tîlharie, răpire a autovehicului, a părţilor lui componente şi a pieselor, echipamentului primit în asigurare, precum şi a echipamentului suplimentar şi accesoriilor dacă acestea sunt asigurate conform contractului de asigurare. -„ACCIDENT” – cauzarea leziunilor corporale sau decesul conducătorului auto/pasagerilor ca rezultat al unui accident rutier. AUTOCASCO - pachetul complet de riscuri, compus din grupurile de risc DAUNĂ şi FURT, care poate include suplimentar riscul ACCIDENT."
+                  }
+              ]
+          },
+          {
+              "id": 6,
+              "label": "Locuințe (imobile)",
+              "formName": "location",
+              "price": 0.05,
+              "steps": [
+                  {
+                      "id": 1,
+                      "title": "Alege tipul autovehiculului",
+                      "cards": [
+                          {
+                              "id": 1,
+                              "title": "Autoturism cu pînă la 9 locuri",
+                              "icon": "icon-car"
+                          },
+                          {
+                              "id": 2,
+                              "title": "Camion pînă la 3,5 tone",
+                              "icon": "icon-minitruck"
+                          },
+                          {
+                              "id": 3,
+                              "title": "Camion mai mult de 3,5 tone",
+                              "icon": "icon-truck"
+                          },
+                          {
+                              "id": 4,
+                              "title": "Microbus pînă la 20 locuri",
+                              "icon": "icon-minibus"
+                          },
+                          {
+                              "id": 5,
+                              "title": "Autobuz peste 20 locuri",
+                              "icon": "icon-bus"
+                          },
+                          {
+                              "id": 6,
+                              "title": "Remorci, semiremorci",
+                              "icon": "icon-trailer"
+                          },
+                          {
+                              "id": 7,
+                              "title": "Refrigeratoare, cisterne",
+                              "icon": "icon-refrigerant"
+                          },
+                          {
+                              "id": 8,
+                              "title": "Tehnică specială",
+                              "icon": "icon-technique"
+                          },
+                          {
+                              "id": 9,
+                              "title": "Echipament suplimentar",
+                              "icon": "icon-other-technique"
+                          }
+                      ]
+                  },
+                  {
+                      "id": 2,
+                      "title": "Alege marca",
+                      "data": [
+                          {
+                              "id": 1,
+                              "title": "Marca",
+                              "name": "marca",
+                              "placeholder": "Introduceți marca"
+                          },
+                          {
+                              "id": 2,
+                              "title": "Model",
+                              "name": "model",
+                              "placeholder": "Introduceți modelul"
+                          },
+                          {
+                              "id": 3,
+                              "title": "Anul producerii",
+                              "name": "year",
+                              "option": [
+                                  {
+                                      "id": 1,
+                                      "title": "2010",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 2,
+                                      "title": "2011",
+                                      "price": 0.04
+                                  },
+                                  {
+                                      "id": 3,
+                                      "title": "2012",
+                                      "price": 0.03
+                                  },
+                                  {
+                                      "id": 4,
+                                      "title": "2013",
+                                      "price": 0.02
+                                  },
+                                  {
+                                      "id": 5,
+                                      "title": "2014",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 6,
+                                      "title": "2015",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 7,
+                                      "title": "2016",
+                                      "price": 0.03
+                                  },
+                                  {
+                                      "id": 8,
+                                      "title": "2017",
+                                      "price": 0.02
+                                  },
+                                  {
+                                      "id": 9,
+                                      "title": "2018",
+                                      "price": 0.02
+                                  },
+                                  {
+                                      "id": 10,
+                                      "title": "2019",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 11,
+                                      "title": "2020",
+                                      "price": 0.05
+                                  },
+                                  {
+                                      "id": 12,
+                                      "title": "2021",
+                                      "price": 0.05
+                                  }
+                              ]
+                          }
+                      ]
+                  },
+                  {
+                      "id": 3,
+                      "title": "Alege valoarea pe piață",
+                      "data": [
+                          {
+                              "id": 1,
+                              "title": "Valoarea de piață ( € )",
+                              "name": "carPrice",
+                              "placeholder": "0"
+                          },
+                          {
+                              "id": 2,
+                              "title": "Teritoriul de acoperire CASCO",
+                              "name": "teritoriu",
+                              "option": [
+                                  {
+                                      "id": 1,
+                                      "title": "RM",
+                                      "price": 0.02
+                                  },
+                                  {
+                                      "id": 2,
+                                      "title": "RM + CSI",
+                                      "price": 0.03
+                                  },
+                                  {
+                                      "id": 3,
+                                      "title": "RM + CSI + EU + TURCIA",
+                                      "price": 0.04
+                                  }
+                              ]
+                          },
+                          {
+                              "id": 3,
+                              "title": "Franșiza",
+                              "name": "franciz",
+                              "option": [
+                                  {
+                                      "id": 4,
+                                      "title": "Fără Franșiză",
+                                      "price": 0
+                                  },
+                                  {
+                                      "id": 5,
+                                      "title": "Cu aplicarea franșizei",
+                                      "price": 0.05
+                                  }
+                              ]
+                          }
+                      ]
+                  }
+              ],
+              "description": [
+                  {
+                      "id": 1,
+                      "title": "Obiectul asigurării",
+                      "text": "Autovehicule înmatriculate în Republica Moldova, care aparţin persoanelor fizice şi juridice,Echipamentul suplimentar, care nu intră în dotarea autovehiculului conform listei de dotări ale uzinei producătoare. Conducătorul auto şi pasagerii, pentru cazuri de accidente care pot avea loc în timpul accidentelor rutiere"
+                  },
+                  {
+                      "id": 2,
+                      "title": "Riscuri și obligațiuni",
+                      "text": " DAUNE - prejudiciile materiale cauzate Asiguratului prin deteriorarea sau distrugerea autovehiculului şi a echipamentului suplimentar ca urmare a: a. tamponării, lovirii sau ciocnirii cu un alt autovehicul, obiect; trecerii peste orice fel de obiecte statice sau în mişcare; căderii; căderii pe autovehicul a unor obiecte străine; derapării; răsturnării; alunecării; b. incendiului, descărcării electrice, exploziei, ploii torenţiale, grindinei, inundaţiei, uraganului, cutremurului de pămînt, surpărilor, alunecărilor de teren, căderilor abundente de zăpadă, avalanşelor, inclusiv acţiunea directă sau indirectă a acestora; - „FURT” – furtul, jaful, tîlhăria, răpirea autovehicului, a părţilor componente sau pieselor acestuia; orice daune cauzate ca urmare a furtului, jafului, tîlhăriei, răpirei sau tentativei de furt, jaf, tîlharie, răpire a autovehicului, a părţilor lui componente şi a pieselor, echipamentului primit în asigurare, precum şi a echipamentului suplimentar şi accesoriilor dacă acestea sunt asigurate conform contractului de asigurare. -„ACCIDENT” – cauzarea leziunilor corporale sau decesul conducătorului auto/pasagerilor ca rezultat al unui accident rutier. AUTOCASCO - pachetul complet de riscuri, compus din grupurile de risc DAUNĂ şi FURT, care poate include suplimentar riscul ACCIDENT."
+                  }
+              ]
+          }
+      ]
+  },
+  "navMenu": {
+      "navTop": {
+          "close_button": "icon-close",
+          "name": "Meniu"
+      },
+      "navList": [
+          {
+              "id": 1,
+              "title": "Pagina Principala",
+              "link": "#",
+              "icon": "icon-home"
+          },
+          {
+              "id": 2,
+              "title": "Despre Minicode",
+              "link": "#",
+              "icon": "icon-users"
+          },
+          {
+              "id": 3,
+              "title": "Produse de asigurare",
+              "link": "#",
+              "icon": "icon-check-circle"
+          },
+          {
+              "title": "Caz asigurat",
+              "link": "#",
+              "icon": "icon-refrigerant"
+          },
+          {
+              "id": 4,
+              "title": "Cariera",
+              "link": "#",
+              "icon": "icon-file-reg"
+          },
+          {
+              "id": 5,
+              "title": "Oferte",
+              "link": "#",
+              "icon": "icon-star"
+          },
+          {
+              "id": 6,
+              "title": "Noutati",
+              "link": "",
+              "icon": "icon-support"
+          },
+          {
+              "id": 7,
+              "title": "Intrebari",
+              "link": "",
+              "icon": "icon-check-circle"
+          },
+          {
+              "id": 8,
+              "title": "Contacte",
+              "link": "",
+              "icon": "icon-phone"
+          }
+      ],
+      "navBottom": [
+          {
+              "id": 1,
+              "title": "Sună la +373 69 845 845",
+              "link": "tel:+37369845845",
+              "icon": "icon-phone"
+          },
+          {
+              "id": 2,
+              "title": "office@minicode.md",
+              "link": "#",
+              "icon": "icon-mail"
+          },
+          {
+              "id": 3,
+              "title": "mun. Chisinau, str Bucuresti, 101",
+              "link": "#",
+              "icon": "icon-placeholder"
+          },
+          {
+              "id": 4,
+              "title": "Harta",
+              "link": "#",
+              "icon": "icon-search"
+          }
+      ]
+  },
+  "social": {
+      "mainSection": [
+          {
+              "id": 1,
+              "title": "Sună",
+              "link": "tel:06966606",
+              "icon": "icon-phone"
+          },
+          {
+              "id": 2,
+              "title": "Messenger",
+              "link": "#",
+              "icon": "icon-messenger"
+          },
+          {
+              "id": 3,
+              "title": "Whatsapp",
+              "link": "#",
+              "icon": "icon-whatsapp"
+          }
+      ]
+  },
+  "sectionConsult": {
+      "title": "Ai nevoie de o consultatie?",
+      "text": "Lasă numele și numărul tău de telefon, iar noi te vom contacta în cel mai scurt timp posibil.",
+      "formData": [
+          {
+              "id": 1,
+              "name": "name",
+              "placeholder": "Nume/Prenume"
+          },
+          {
+              "id": 2,
+              "name": "phone",
+              "placeholder": "(+373) __-___-___ "
+          }
+      ]
+  },
+  "sectionOferts": {
+      "title": "Oferte",
+      "bg": "/img/oferts/bg-ofer.jpg",
+      "cards": [
+          {
+              "id": 1,
+              "name": "Asigură-ți locuința atunci când pleci în vacanță!",
+              "text": "Asigură-ți locuința atunci când pleci în vacanță...",
+              "link": "#",
+              "img": "/img/oferts/01.png"
+          },
+          {
+              "id": 2,
+              "name": "Asigură-ți locuința atunci când pleci în vacanță!",
+              "text": "Asigură-ți locuința atunci când pleci în vacanță...",
+              "link": "#",
+              "img": "/img/oferts/02.png"
+          },
+          {
+              "id": 3,
+              "name": "Asigură-ți locuința atunci când pleci în vacanță!",
+              "text": "Asigură-ți locuința atunci când pleci în vacanță...",
+              "link": "#",
+              "img": "/img/oferts/03.png"
+          }
+      ]
+  },
+  "recenzii": {
+      "title": "Recenziile clientilor",
+      "cards": [
+          {
+              "id": 1,
+              "name": "Vasile Moraru",
+              "text": "Am fost implicat recent intr-un accident rutier. Am fost despagubit in timp. Personal foarte amabil. Recomand cu incredere!",
+              "rating": 4,
+              "img": "/img/recenzii/01.png"
+          },
+          {
+              "id": 2,
+              "name": "Valeria Ivanov",
+              "text": "consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue",
+              "rating": 5,
+              "img": "/img/recenzii/02.png"
+          },
+          {
+              "id": 3,
+              "name": "Cody Fisher",
+              "text": "Am fost implicat recent intr-un accident rutier. Am fost despagubit in timp. Personal foarte amabil. Recomand cu incredere!",
+              "rating": 4,
+              "img": "/img/recenzii/03.png"
+          },
+          {
+              "id": 4,
+              "name": "Theresa Webb",
+              "text": "consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue",
+              "rating": 5,
+              "img": "/img/recenzii/04.png"
+          },
+          {
+              "id": 5,
+              "name": "Ronald Richards",
+              "text": "Am fost implicat recent intr-un accident rutier. Am fost despagubit in timp. Personal foarte amabil. Recomand cu incredere!",
+              "rating": 4,
+              "img": "/img/recenzii/05.png"
+          },
+          {
+              "id": 6,
+              "name": "Annette Black",
+              "text": "consectetur adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum a arcu cursus vitae congue",
+              "rating": 5,
+              "img": "/img/recenzii/06.png"
+          },
+          {
+              "id": 7,
+              "name": "Vasile Moraru",
+              "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+              "rating": 4,
+              "img": "/img/recenzii/07.png"
+          },
+          {
+              "id": 8,
+              "name": "Vasile Moraru",
+              "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+              "rating": 4,
+              "img": "/img/recenzii/08.png"
+          },
+          {
+              "id": 9,
+              "name": "Darlene Robertson",
+              "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+              "rating": 4,
+              "img": "/img/recenzii/09.png"
+          },
+          {
+              "id": 10,
+              "name": "Albert Flores",
+              "text": "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.",
+              "rating": 4,
+              "img": "/img/recenzii/10.png"
+          },
+          {
+              "id": 11,
+              "name": "Floyd Miles",
+              "text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.",
+              "rating": 4,
+              "img": "/img/recenzii/11.png"
+          },
+          {
+              "id": 12,
+              "name": "Ralph Edwards",
+              "text": "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi.",
+              "rating": 4,
+              "img": "/img/recenzii/12.png"
+          }
+      ]
+  },
+  "footer": {
+      "id": 232323,
+      "logo": "/img/logo-w.svg",
+      "about": "Dezvoltarea companiei MINICODE a fost determinată în mare parte de flexibilitatea soluțiilor și ofertelor, adaptivitații față de cerințele pieții și cerințelor clienților",
+      "link": "tel:060606060",
+      "columns": [
+          {
+              "id": 222,
+              "title": "Companie",
+              "links": [
+                  {
+                      "id": 1,
+                      "name": "Produse de asigurare",
+                      "link": "#"
+                  },
+                  {
+                      "id": 2,
+                      "name": "Caz asigurat",
+                      "link": "#"
+                  },
+                  {
+                      "id": 3,
+                      "name": "Produse de asigurare",
+                      "link": "#"
+                  },
+                  {
+                      "id": 4,
+                      "name": "Noutăți",
+                      "link": "#"
+                  },
+                  {
+                      "id": 5,
+                      "name": "Carieră",
+                      "link": "#"
+                  },
+                  {
+                      "id": 6,
+                      "name": "Oferte",
+                      "link": "#"
+                  },
+                  {
+                      "id": 7,
+                      "name": "Întrebări",
+                      "link": "#"
+                  }
+              ]
+          },
+          {
+              "id": 56561,
+              "title": "Contacte",
+              "links": [
+                  {
+                      "id": 8,
+                      "name": "+373 69 845 825",
+                      "link": "tel:+373 69 845 825"
+                  },
+                  {
+                      "id": 9,
+                      "name": "+373 69 845 825",
+                      "link": "tel:+373 69 845 825"
+                  },
+                  {
+                      "id": 10,
+                      "name": "mun. Chișinău,str. București, 101",
+                      "link": "#"
+                  }
+              ]
+          },
+          {
+              "id": 87876,
+              "title": "Social media",
+              "links": [
+                  {
+                      "id": 11,
+                      "name": "Viber",
+                      "link": "#",
+                      "icon": "icon-viber"
+                  },
+                  {
+                      "id": 12,
+                      "name": "Whatsapp",
+                      "link": "#",
+                      "icon": "icon-whatsapp"
+                  },
+                  {
+                      "id": 13,
+                      "name": "Facebook",
+                      "link": "#",
+                      "icon": "icon-facebook"
+                  },
+                  {
+                      "id": 14,
+                      "name": "Telegram",
+                      "link": "#",
+                      "icon": "icon-telegram"
+                  },
+                  {
+                      "id": 15,
+                      "name": "Instagram",
+                      "link": "#",
+                      "icon": "icon-instagram"
+                  }
+              ]
+          }
+      ]
+  },
+  "header": {
+      "id": 1,
+      "logo": "/img/logo.svg",
+      "label": "Cu siguranță, împreună!"
+  },
+  "meta": {
+      "title": "Minicode - Solutii digitale inovatoare",
+      "descr": "Partenerul tău de încredere pentru dezvoltare software personalizată și optimizare a proceselor de afaceri.",
+      "keyWords": "încredere,Solutii,dezvoltare",
+      "author": "Cazac Roman"
+  },
+  "users": [
+    {
+      "id": "1682944458070",
+      "username": "romancazac999@gmail.com",
+      "phone": "06049600",
+      "email": "cristina@gmail.com",
+      "password": "123456789"
+    }
+  ],
+  "profile-info": [
+    {
+      "personalInfo": [
+        {
+          "fullName": "Roman",
+          "speciality": "Front End",
+          "date of birth": "23.06.1992",
+          "gender": "Mascule",
+          "about": "I'm front end developer "
+        }
+      ],
+      "id": 0
+    },
+    {
+      "id": 1,
+      "contacts": [
+        {
+          "phone": "06904633",
+          "email": "romancazac23@icloud.com",
+          "links": [
+            {
+              "url": "https://github.com/romancazac",
+              "name": "Website",
+              "icon": "icon-dribbble"
+            },
+            {
+              "url": "https://www.instagram.com/a.c.e_f",
+              "name": "Instagram",
+              "icon": "icon-instagram"
+            },
+            {
+              "url": "https://www.facebook.com/roman.cazac.3",
+              "name": "Facebook",
+              "icon": "icon-facebook"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "experience": [
+        {
+          "position": "Front end developer",
+          "employment": "FullTime",
+          "agency": "Dis Agency",
+          "location": "Moldova",
+          "perioad": "2023-06-16--2023-06-16",
+          "id": "15ef6906-e0ee-42b7-1550-0d67c6aaf407"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "education": [
+        {
+          "position": "USM  IT software",
+          "employment": "Students",
+          "agency": "USM",
+          "location": "Moldova",
+          "perioad": "2022-05-16--2020-01-16",
+          "id": "f9339ebe-210a-6fcb-9265-68f6c37952e1"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "languages": [
+        {
+          "position": "English lang",
+          "employment": "Students",
+          "agency": "Dis Agency",
+          "location": "",
+          "perioad": "--",
+          "id": "cb6f2c9f-4979-71ad-c071-844f88817ffb"
+        }
+      ],
+      "id": 4
+    },
+    {
+      "skilss": [
+        {
+          "skill": "React, HTML, Wordpress"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "preference": [
+        {
+          "category": "Design",
+          "available": true
+        }
+      ],
+      "id": 6
+    }
+  ],
+  "jobs": [
+    {
+      "id": 1,
+      "avatar": "/src/assets/img/cadidats/01.png",
+      "name": "Product Designer - Racuten Analytics",
+      "author": "Racuten",
+      "country": "Afghanistan",
+      "date": "08.04.2023",
+      "salary": "8000",
+      "text": "Full stack developer Magic is an international SaaS technology company. Our flagship product is an SMS messaging platform used worldwide (including the USA, UK, Canada, and Australia)...",
+      "category": "Develope",
+      "types": "Fulltime",
+      "experience": "3-5 years",
+      "level": "Middle Level",
+      "rating": "5",
+      "requirements": [
+        "At least 3 years of experience on a similar position;",
+        "English – Upper intermediate (B2) or higher;",
+        "Strong dramatic writing skills in English;",
+        "Deep understanding of story structure, non-linear narrative methods;",
+        "Passion for video games of various genres, especially for the open-world genre;"
+      ]
+    },
+    {
+      "id": 2,
+      "avatar": "/src/assets/img/cadidats/02.png",
+      "name": "Narrative designer",
+      "author": "Invision",
+      "country": "Australia",
+      "salary": "8000",
+      "date": "08.02.2023",
+      "rating": "3",
+      "text": "Frogwares is currently looking for a Narrative Designer to join the dynamic team of game designers for its upcoming titles. Our expert team creates games which are highly praised by millions of players, as well as industry experts all over the world.",
+      "category": "Design",
+      "types": "Fulltime,No experience,Internship/Trainee,Remote ",
+      "experience": "0-2 years",
+      "level": "Junior Level",
+      "requirements": [
+        "At least 3 years of experience on a similar position;",
+        "English – Upper intermediate (B2) or higher;",
+        "Strong dramatic writing skills in English;",
+        "Deep understanding of story structure, non-linear narrative methods;",
+        "Passion for video games of various genres, especially for the open-world genre;"
+      ]
+    },
+    {
+      "id": 3,
+      "avatar": "/src/assets/img/cadidats/03.png",
+      "name": "UX UI Designer - Intermediate Position",
+      "author": "Spotify",
+      "country": "Germany",
+      "salary": "7000",
+      "date": "10.04.2023",
+      "rating": "2",
+      "text": "At Remitbee, we value innovation and diversity to help our team, and the world thrive. In a culture that promotes ethical values, mentorship, flexibility, and inclusion",
+      "category": "Design",
+      "types": "No experience,Internship/Trainee,Remote ",
+      "experience": "6-9 years",
+      "level": "Senior Level",
+      "requirements": [
+        "At least 3 years of experience on a similar position;",
+        "English – Upper intermediate (B2) or higher;",
+        "Strong dramatic writing skills in English;",
+        "Deep understanding of story structure, non-linear narrative methods;",
+        "Passion for video games of various genres, especially for the open-world genre;"
+      ]
+    },
+    {
+      "id": 4,
+      "avatar": "/src/assets/img/cadidats/04.png",
+      "name": "Quest designer",
+      "author": "Airbnb",
+      "country": "Moldova",
+      "date": "09.01.2023",
+      "salary": "7000",
+      "rating": "4",
+      "category": "Design",
+      "text": "Frogwares is currently looking for a Quest Designer to join the dynamic team of game designers for its upcoming titles. Our expert team creates games that are highly praised by millions of players, as well as industry experts all over the world.",
+      "types": "Fulltime,No experience,Internship/Trainee,Remote ",
+      "experience": "10+ years",
+      "level": "Senior Level",
+      "requirements": [
+        "At least 3 years of experience on a similar position;",
+        "English – Upper intermediate (B2) or higher;",
+        "Strong dramatic writing skills in English;",
+        "Deep understanding of story structure, non-linear narrative methods;",
+        "Passion for video games of various genres, especially for the open-world genre;"
+      ]
+    },
+    {
+      "id": 5,
+      "avatar": "/src/assets/img/cadidats/05.png",
+      "name": "Middle Product UX Designer",
+      "author": "Google",
+      "country": "Moldova",
+      "salary": "7000",
+      "rating": "2",
+      "category": "Design",
+      "text": "You will be part of the core team that has full control over the ‘what’ and ‘how’ of the digital product, and report directly to the Covantis design lead. You will help decide what the product looks like and how it behaves, working alongside designers, researchers, developers, product managers, and salespeople.",
+      "types": "Fulltime,No experience,Internship/Trainee,Remote ",
+      "experience": "6-9 years",
+      "date": "08.01.2023",
+      "level": "Senior Level",
+      "requirements": [
+        "At least 3 years of experience on a similar position;",
+        "English – Upper intermediate (B2) or higher;",
+        "Strong dramatic writing skills in English;",
+        "Deep understanding of story structure, non-linear narrative methods;",
+        "Passion for video games of various genres, especially for the open-world genre;"
+      ]
+    },
+    {
+      "id": 6,
+      "avatar": "/src/assets/img/cadidats/02.png",
+      "name": "Narrative designer",
+      "author": "Invision",
+      "country": "Australia",
+      "salary": "8000",
+      "date": "08.02.2023",
+      "rating": "3",
+      "text": "Frogwares is currently looking for a Narrative Designer to join the dynamic team of game designers for its upcoming titles. Our expert team creates games which are highly praised by millions of players, as well as industry experts all over the world.",
+      "category": "Design",
+      "types": "Fulltime,No experience,Internship/Trainee,Remote ",
+      "experience": "0-2 years",
+      "level": "Junior Level",
+      "requirements": [
+        "At least 3 years of experience on a similar position;",
+        "English – Upper intermediate (B2) or higher;",
+        "Strong dramatic writing skills in English;",
+        "Deep understanding of story structure, non-linear narrative methods;",
+        "Passion for video games of various genres, especially for the open-world genre;"
+      ]
+    },
+    {
+      "id": 7,
+      "avatar": "/src/assets/img/cadidats/03.png",
+      "name": "UX UI Designer - Intermediate Position",
+      "author": "Spotify",
+      "country": "Germany",
+      "salary": "7000",
+      "date": "10.04.2023",
+      "rating": "2",
+      "text": "At Remitbee, we value innovation and diversity to help our team, and the world thrive. In a culture that promotes ethical values, mentorship, flexibility, and inclusion",
+      "category": "Design",
+      "types": "No experience,Internship/Trainee,Remote ",
+      "experience": "6-9 years",
+      "level": "Senior Level",
+      "requirements": [
+        "At least 3 years of experience on a similar position;",
+        "English – Upper intermediate (B2) or higher;",
+        "Strong dramatic writing skills in English;",
+        "Deep understanding of story structure, non-linear narrative methods;",
+        "Passion for video games of various genres, especially for the open-world genre;"
+      ]
+    },
+    {
+      "id": 8,
+      "avatar": "/src/assets/img/cadidats/04.png",
+      "name": "Quest designer",
+      "author": "Airbnb",
+      "country": "Moldova",
+      "date": "09.01.2023",
+      "salary": "7000",
+      "rating": "4",
+      "category": "Design",
+      "text": "Frogwares is currently looking for a Quest Designer to join the dynamic team of game designers for its upcoming titles. Our expert team creates games that are highly praised by millions of players, as well as industry experts all over the world.",
+      "types": "Fulltime,No experience,Internship/Trainee,Remote ",
+      "experience": "10 years",
+      "level": "Senior Level",
+      "requirements": [
+        "At least 3 years of experience on a similar position;",
+        "English – Upper intermediate (B2) or higher;",
+        "Strong dramatic writing skills in English;",
+        "Deep understanding of story structure, non-linear narrative methods;",
+        "Passion for video games of various genres, especially for the open-world genre;"
+      ]
+    },
+    {
+      "id": 9,
+      "avatar": "/src/assets/img/cadidats/05.png",
+      "name": "Middle Product UX Designer",
+      "author": "Google",
+      "country": "Moldova",
+      "salary": "7000",
+      "rating": "2",
+      "category": "Design",
+      "text": "You will be part of the core team that has full control over the ‘what’ and ‘how’ of the digital product, and report directly to the Covantis design lead. You will help decide what the product looks like and how it behaves, working alongside designers, researchers, developers, product managers, and salespeople.",
+      "types": "Fulltime,No experience,Internship/Trainee,Remote ",
+      "experience": "6-9 years",
+      "date": "08.01.2023",
+      "level": "Senior Level",
+      "requirements": [
+        "At least 3 years of experience on a similar position;",
+        "English – Upper intermediate (B2) or higher;",
+        "Strong dramatic writing skills in English;",
+        "Deep understanding of story structure, non-linear narrative methods;",
+        "Passion for video games of various genres, especially for the open-world genre;"
+      ]
+    },
+    {
+      "author": "romancazac999@gmail.com",
+      "name": "Product Designer - Racuten Analytics",
+      "salary": "4000",
+      "avatar": "/src/assets/img/cadidats/01.png",
+      "experience": "6-9 years",
+      "category": "Marketing",
+      "types": "Hourly",
+      "text": "Full stack developer Magic is an international SaaS technology company. Our flagship product is an SMS messaging platform used worldwide (including the USA, UK, Canada, and Australia)...",
+      "checkbox": true,
+      "rating": "0",
+      "date": "8 май 2023",
+      "country": "Moldova",
+      "id": 10
+    }
+  ],
+  "candidats": [
+    {
+      "id": 1,
+      "avatar": "/src/assets/img/cadidats/01.png",
+      "name": "Syeda Johnston, 22 y.o.",
+      "author": "Racuten",
+      "country": "Afghanistan",
+      "date": "08.04.2023",
+      "salary": "8000",
+      "text": "Part-time. 2.6 years experience. Higher education",
+      "category": "Develope",
+      "types": "Fulltime",
+      "experience": "3-5 years",
+      "level": "Middle Level",
+      "rating": "5",
+      "requirements": [
+        "At least 3 years of experience on a similar position;",
+        "English – Upper intermediate (B2) or higher;",
+        "Strong dramatic writing skills in English;",
+        "Deep understanding of story structure, non-linear narrative methods;",
+        "Passion for video games of various genres, especially for the open-world genre;"
+      ]
+    },
+    {
+      "id": 2,
+      "avatar": "/src/assets/img/cadidats/02.png",
+      "name": "Narrative designer",
+      "author": "Syeda Johnston, 22 y.o.",
+      "country": "Australia",
+      "salary": "8000",
+      "date": "08.02.2023",
+      "rating": "3",
+      "text": "Frogwares is currently looking for a Narrative Designer to join the dynamic team of game designers for its upcoming titles. Our expert team creates games which are highly praised by millions of players, as well as industry experts all over the world.",
+      "category": "Design",
+      "types": "Fulltime,No experience,Internship/Trainee,Remote ",
+      "experience": "0-2 years",
+      "level": "Junior Level",
+      "requirements": [
+        "At least 3 years of experience on a similar position;",
+        "English – Upper intermediate (B2) or higher;",
+        "Strong dramatic writing skills in English;",
+        "Deep understanding of story structure, non-linear narrative methods;",
+        "Passion for video games of various genres, especially for the open-world genre;"
+      ]
+    },
+    {
+      "id": 3,
+      "avatar": "/src/assets/img/cadidats/03.png",
+      "name": "UX UI Designer - Intermediate Position",
+      "author": "Spotify",
+      "country": "Germany",
+      "salary": "7000",
+      "date": "10.04.2023",
+      "rating": "2",
+      "text": "At Remitbee, we value innovation and diversity to help our team, and the world thrive. In a culture that promotes ethical values, mentorship, flexibility, and inclusion",
+      "category": "Design",
+      "types": "No experience,Internship/Trainee,Remote ",
+      "experience": "6-9 years",
+      "level": "Senior Level",
+      "requirements": [
+        "At least 3 years of experience on a similar position;",
+        "English – Upper intermediate (B2) or higher;",
+        "Strong dramatic writing skills in English;",
+        "Deep understanding of story structure, non-linear narrative methods;",
+        "Passion for video games of various genres, especially for the open-world genre;"
+      ]
+    },
+    {
+      "id": 4,
+      "avatar": "/src/assets/img/cadidats/04.png",
+      "name": "Quest designer",
+      "author": "Airbnb",
+      "country": "Moldova",
+      "date": "09.01.2023",
+      "salary": "7000",
+      "rating": "4",
+      "category": "Design",
+      "text": "Frogwares is currently looking for a Quest Designer to join the dynamic team of game designers for its upcoming titles. Our expert team creates games that are highly praised by millions of players, as well as industry experts all over the world.",
+      "types": "Fulltime,No experience,Internship/Trainee,Remote ",
+      "experience": "10+ years",
+      "level": "Senior Level",
+      "requirements": [
+        "At least 3 years of experience on a similar position;",
+        "English – Upper intermediate (B2) or higher;",
+        "Strong dramatic writing skills in English;",
+        "Deep understanding of story structure, non-linear narrative methods;",
+        "Passion for video games of various genres, especially for the open-world genre;"
+      ]
+    },
+    {
+      "id": 5,
+      "avatar": "/src/assets/img/cadidats/05.png",
+      "name": "Middle Product UX Designer",
+      "author": "Google",
+      "country": "Moldova",
+      "salary": "7000",
+      "rating": "2",
+      "category": "Design",
+      "text": "You will be part of the core team that has full control over the ‘what’ and ‘how’ of the digital product, and report directly to the Covantis design lead. You will help decide what the product looks like and how it behaves, working alongside designers, researchers, developers, product managers, and salespeople.",
+      "types": "Fulltime,No experience,Internship/Trainee,Remote ",
+      "experience": "6-9 years",
+      "date": "08.01.2023",
+      "level": "Senior Level",
+      "requirements": [
+        "At least 3 years of experience on a similar position;",
+        "English – Upper intermediate (B2) or higher;",
+        "Strong dramatic writing skills in English;",
+        "Deep understanding of story structure, non-linear narrative methods;",
+        "Passion for video games of various genres, especially for the open-world genre;"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "img": "/src/assets/img/blog/01.jpg",
+      "name": "Working Multiple Remote Jobs: What You Need to know",
+      "date": "9 Sep 2022",
+      "text": "In the office office, your colleagues often pose the greatest threat to keeping you from getting some real, heads-down work done. They drop by your desk, engage you in conversation, and invite you to lunch — or so I hear. The social benefits are nice to have, but they can become a challenge if you're easily distracted. However, at the home office, while family members can be a distraction, I find that it's easy for you to become your own worst enemy. Because without coworkers around, you’re free to drop those pesky inhibitions. At the home office, no one's watching. You don't necessarily feel that same peer pressure or communal obligation to get stuff done. (Also, you don't have to wear pants.) ",
+      "category": "Career Tips",
+      "rating": "4"
+    },
+    {
+      "id": 2,
+      "img": "/src/assets/img/blog/b1.png",
+      "name": "How to Figure Out If a Potential Employer Offers Paid Leave",
+      "date": "9 Sep 2022",
+      "text": "In the office office, your colleagues often pose the greatest threat to keeping you from getting some real, heads-down work done. They drop by your desk, engage you in conversation, and invite you to lunch — or so I hear. The social benefits are nice to have, but they can become a challenge if you're easily distracted. However, at the home office, while family members can be a distraction, I find that it's easy for you to become your own worst enemy. Because without coworkers around, you’re free to drop those pesky inhibitions. At the home office, no one's watching. You don't necessarily feel that same peer pressure or communal obligation to get stuff done. (Also, you don't have to wear pants.) ",
+      "category": "Career Tips",
+      "rating": "4"
+    },
+    {
+      "id": 3,
+      "img": "/src/assets/img/blog/b2.png",
+      "name": "The Hidden Savings (and Costs) of Working From Home",
+      "date": "28 Oct 2022",
+      "text": "In the office office, your colleagues often pose the greatest threat to keeping you from getting some real, heads-down work done. They drop by your desk, engage you in conversation, and invite you to lunch — or so I hear. The social benefits are nice to have, but they can become a challenge if you're easily distracted. However, at the home office, while family members can be a distraction, I find that it's easy for you to become your own worst enemy. Because without coworkers around, you’re free to drop those pesky inhibitions. At the home office, no one's watching. You don't necessarily feel that same peer pressure or communal obligation to get stuff done. (Also, you don't have to wear pants.) ",
+      "category": "Career Tips",
+      "rating": "4"
+    },
+    {
+      "id": 4,
+      "img": "/src/assets/img/blog/b3.png",
+      "name": "25 Companies Hiring for Remote, Work-From-Home Jobs Right Now",
+      "date": "21 Aug 2022",
+      "text": "In the office office, your colleagues often pose the greatest threat to keeping you from getting some real, heads-down work done. They drop by your desk, engage you in conversation, and invite you to lunch — or so I hear. The social benefits are nice to have, but they can become a challenge if you're easily distracted. However, at the home office, while family members can be a distraction, I find that it's easy for you to become your own worst enemy. Because without coworkers around, you’re free to drop those pesky inhibitions. At the home office, no one's watching. You don't necessarily feel that same peer pressure or communal obligation to get stuff done. (Also, you don't have to wear pants.) ",
+      "category": "Career Tips",
+      "rating": "5"
+    },
+    {
+      "id": 5,
+      "img": "/src/assets/img/blog/b4.png",
+      "name": "How Working From Home Can Reduce Stress",
+      "date": "9 Sep 2022",
+      "text": "In the office office, your colleagues often pose the greatest threat to keeping you from getting some real, heads-down work done. They drop by your desk, engage you in conversation, and invite you to lunch — or so I hear. The social benefits are nice to have, but they can become a challenge if you're easily distracted. However, at the home office, while family members can be a distraction, I find that it's easy for you to become your own worst enemy. Because without coworkers around, you’re free to drop those pesky inhibitions. At the home office, no one's watching. You don't necessarily feel that same peer pressure or communal obligation to get stuff done. (Also, you don't have to wear pants.) ",
+      "category": "Career Tips",
+      "rating": "5"
+    },
+    {
+      "id": 6,
+      "img": "/src/assets/img/blog/b5.png",
+      "name": "How intrapreneurship can help you stand out at work ",
+      "date": "9 Apr 2023",
+      "text": "In the office office, your colleagues often pose the greatest threat to keeping you from getting some real, heads-down work done. They drop by your desk, engage you in conversation, and invite you to lunch — or so I hear. The social benefits are nice to have, but they can become a challenge if you're easily distracted. However, at the home office, while family members can be a distraction, I find that it's easy for you to become your own worst enemy. Because without coworkers around, you’re free to drop those pesky inhibitions. At the home office, no one's watching. You don't necessarily feel that same peer pressure or communal obligation to get stuff done. (Also, you don't have to wear pants.) ",
+      "category": "Career Tips",
+      "rating": "5"
+    },
+    {
+      "id": 7,
+      "img": "/src/assets/img/blog/b6.png",
+      "name": "How to Know Your Resume Is Ready to be Submitted",
+      "date": "20 Apr 2023",
+      "text": "In the office office, your colleagues often pose the greatest threat to keeping you from getting some real, heads-down work done. They drop by your desk, engage you in conversation, and invite you to lunch — or so I hear. The social benefits are nice to have, but they can become a challenge if you're easily distracted. However, at the home office, while family members can be a distraction, I find that it's easy for you to become your own worst enemy. Because without coworkers around, you’re free to drop those pesky inhibitions. At the home office, no one's watching. You don't necessarily feel that same peer pressure or communal obligation to get stuff done. (Also, you don't have to wear pants.) ",
+      "category": "Interviews",
+      "rating": "5"
+    },
+    {
+      "id": 8,
+      "img": "/src/assets/img/blog/b7.png",
+      "name": "How to Sharpen Your Social Skills When You WFH",
+      "date": "11 Apr 2023",
+      "text": "In the office office, your colleagues often pose the greatest threat to keeping you from getting some real, heads-down work done. They drop by your desk, engage you in conversation, and invite you to lunch — or so I hear. The social benefits are nice to have, but they can become a challenge if you're easily distracted. However, at the home office, while family members can be a distraction, I find that it's easy for you to become your own worst enemy. Because without coworkers around, you’re free to drop those pesky inhibitions. At the home office, no one's watching. You don't necessarily feel that same peer pressure or communal obligation to get stuff done. (Also, you don't have to wear pants.) ",
+      "category": "Interviews",
+      "rating": "5"
+    },
+    {
+      "id": 9,
+      "img": "/src/assets/img/blog/b8.png",
+      "name": "How to explain why you’re right for the job",
+      "date": "15 Aug 2022",
+      "text": "In the office office, your colleagues often pose the greatest threat to keeping you from getting some real, heads-down work done. They drop by your desk, engage you in conversation, and invite you to lunch — or so I hear. The social benefits are nice to have, but they can become a challenge if you're easily distracted. However, at the home office, while family members can be a distraction, I find that it's easy for you to become your own worst enemy. Because without coworkers around, you’re free to drop those pesky inhibitions. At the home office, no one's watching. You don't necessarily feel that same peer pressure or communal obligation to get stuff done. (Also, you don't have to wear pants.) ",
+      "category": "Interviews",
+      "rating": "4"
+    },
+    {
+      "id": 10,
+      "img": "/src/assets/img/blog/b9.png",
+      "name": "How do you answer the question, “How do you like to be managed?”",
+      "date": "16 May 2022",
+      "text": "In the office office, your colleagues often pose the greatest threat to keeping you from getting some real, heads-down work done. They drop by your desk, engage you in conversation, and invite you to lunch — or so I hear. The social benefits are nice to have, but they can become a challenge if you're easily distracted. However, at the home office, while family members can be a distraction, I find that it's easy for you to become your own worst enemy. Because without coworkers around, you’re free to drop those pesky inhibitions. At the home office, no one's watching. You don't necessarily feel that same peer pressure or communal obligation to get stuff done. (Also, you don't have to wear pants.) ",
+      "category": "Career Tips",
+      "rating": "5"
+    },
+    {
+      "id": 11,
+      "img": "/src/assets/img/blog/b10.png",
+      "name": "Tips for shaking your job interview jitters",
+      "date": "24 Dec 2022",
+      "text": "In the office office, your colleagues often pose the greatest threat to keeping you from getting some real, heads-down work done. They drop by your desk, engage you in conversation, and invite you to lunch — or so I hear. The social benefits are nice to have, but they can become a challenge if you're easily distracted. However, at the home office, while family members can be a distraction, I find that it's easy for you to become your own worst enemy. Because without coworkers around, you’re free to drop those pesky inhibitions. At the home office, no one's watching. You don't necessarily feel that same peer pressure or communal obligation to get stuff done. (Also, you don't have to wear pants.) ",
+      "category": "Career Tips",
+      "rating": "4"
+    }
+  ],
+  "apply": [
+    {
+      "email": "gh@dgfg",
+      "file": "C:\\fakepath\\315222649_797770061294384_7071935775069182972_n.jpg",
+      "phone": "0500000",
+      "username": "fhh",
+      "title": "Middle Product UX Designer",
+      "applyId": 5,
+      "id": 1
+    },
+    {
+      "email": "gh@dgfg",
+      "file": "C:\\fakepath\\315222649_797770061294384_7071935775069182972_n.jpg",
+      "phone": "0500000",
+      "username": "fhh",
+      "title": "Middle Product UX Designer",
+      "applyId": 5,
+      "id": 2
+    },
+    {
+      "email": "adsfdsaf@fdgfg.md",
+      "file": "C:\\fakepath\\315222649_797770061294384_7071935775069182972_n.jpg",
+      "phone": "069046330",
+      "username": "Jora",
+      "title": "Product Designer - Racuten Analytics",
+      "applyId": 1,
+      "id": 3
+    },
+    {
+      "email": "cristina@gmail.com",
+      "file": "",
+      "phone": "06049600",
+      "username": "romancazac999@gmail.com",
+      "title": "Middle Product UX Designer",
+      "applyId": 5,
+      "id": 4
+    },
+    {
+      "email": "cristina@gmail.com",
+      "file": "",
+      "phone": "06049600",
+      "username": "romancazac999@gmail.com",
+      "title": "Middle Product UX Designer",
+      "applyId": 5,
+      "id": 5
+    },
+    {
+      "email": "romancazac23@icloud.com",
+      "file": "",
+      "phone": "+374 69046330",
+      "username": "romancazac999@gmail.com",
+      "title": "Middle Product UX Designer",
+      "applyId": 5,
+      "id": 6
+    }
+  ],
+  "form-contacts": [
+    {
+      "name": "Roman",
+      "firstname": "Cazac",
+      "email": "romancazac23@icloud.com",
+      "company": "Man",
+      "checkbox": true,
+      "companySize": "4",
+      "salesSize": "3",
+      "message": "Mesage",
+      "id": 1
+    },
+    {
+      "name": "Roman",
+      "firstname": "Cazac",
+      "email": "romancazac23@icloud.com",
+      "company": "Man",
+      "checkbox": true,
+      "companySize": "1",
+      "salesSize": "1",
+      "message": "Mesage",
+      "id": 2
+    },
+    {
+      "name": "Roman",
+      "firstname": "Cazac",
+      "email": "romancazac23@icloud.com",
+      "company": "Man",
+      "checkbox": true,
+      "companySize": "1",
+      "salesSize": "1",
+      "message": "Mesage",
+      "id": 3
+    },
+    {
+      "name": "Roman",
+      "firstname": "Cazac",
+      "email": "romancazac23@icloud.com",
+      "company": "Man",
+      "checkbox": true,
+      "companySize": "1",
+      "salesSize": "1",
+      "message": "Mesage",
+      "id": 4
+    },
+    {
+      "name": "Roman",
+      "firstname": "Cazac",
+      "email": "romancazac23@icloud.com",
+      "company": "Man",
+      "checkbox": true,
+      "companySize": "1",
+      "salesSize": "1",
+      "message": "Mesage",
+      "id": 5
+    },
+    {
+      "name": "Roman",
+      "firstname": "Cazac",
+      "email": "romancazac23@icloud.com",
+      "company": "Man",
+      "checkbox": true,
+      "companySize": "1",
+      "salesSize": "1",
+      "message": "Mesage",
+      "id": 6
+    },
+    {
+      "name": "Roman",
+      "firstname": "Cazac",
+      "email": "romancazac23@icloud.com",
+      "company": "Man",
+      "checkbox": true,
+      "companySize": "1",
+      "salesSize": "1",
+      "message": "Mesage",
+      "id": 7
+    },
+    {
+      "name": "Roman",
+      "firstname": "Cazac",
+      "email": "romancazac23@icloud.com",
+      "company": "Man",
+      "checkbox": true,
+      "companySize": "1",
+      "salesSize": "1",
+      "message": "Mesage",
+      "id": 8
+    },
+    {
+      "name": "Roman",
+      "firstname": "Roman",
+      "email": "romancazac23@icloud.com",
+      "company": "fghgfhdsfdsfdsfdsf",
+      "checkbox": true,
+      "companySize": "3",
+      "salesSize": "4",
+      "message": "fgthfgh",
+      "id": 9
+    },
+    {
+      "name": "Roman",
+      "firstname": "Roman",
+      "email": "romancazac@yahoo.com",
+      "company": "fghgfhdsfdsfdsfdsf",
+      "checkbox": true,
+      "companySize": "3",
+      "salesSize": "2",
+      "message": "yuii",
+      "id": 10
+    },
+    {
+      "name": "Roman",
+      "firstname": "Roman",
+      "email": "romancazac@yahoo.com",
+      "company": "fghgfhdsfdsfdsfdsf",
+      "checkbox": true,
+      "companySize": "3",
+      "salesSize": "2",
+      "message": "yuii",
+      "id": 11
+    }
+  ],
+  "testQuestion": [
+    {
+      "id": 1,
+      "intrebare": "Care este rezultatul următoarei expresii: 3 + 2 * 4?",
+      "raspunsuri": [
+        {
+          "text": "11",
+          "corect": false
+        },
+        {
+          "text": "20",
+          "corect": false
+        },
+        {
+          "text": "14",
+          "corect": true
+        },
+        {
+          "text": "9",
+          "corect": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "intrebare": "Ce metoda este folosită pentru a converti un șir de caractere într-un număr în JavaScript?",
+      "raspunsuri": [
+        {
+          "text": "parseInt()",
+          "corect": true
+        },
+        {
+          "text": "parseFloat()",
+          "corect": false
+        },
+        {
+          "text": "convertToNumber()",
+          "corect": false
+        },
+        {
+          "text": "toNumber()",
+          "corect": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "intrebare": "Care este rezultatul următoarei expresii: '2' + 3 + 4?",
+      "raspunsuri": [
+        {
+          "text": "234",
+          "corect": true
+        },
+        {
+          "text": "9",
+          "corect": false
+        },
+        {
+          "text": "7",
+          "corect": false
+        },
+        {
+          "text": "23",
+          "corect": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "intrebare": "Ce metodă este folosită pentru a verifica dacă un obiect are o anumită proprietate în JavaScript?",
+      "raspunsuri": [
+        {
+          "text": "hasOwnProperty()",
+          "corect": true
+        },
+        {
+          "text": "checkProperty()",
+          "corect": false
+        },
+        {
+          "text": "isPropertyPresent()",
+          "corect": false
+        },
+        {
+          "text": "containsProperty()",
+          "corect": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "intrebare": "Care dintre următoarele opțiuni este un mod corect de a crea un array vid în JavaScript?",
+      "raspunsuri": [
+        {
+          "text": "var arr = [];",
+          "corect": true
+        },
+        {
+          "text": "var arr = new Array();",
+          "corect": false
+        },
+        {
+          "text": "var arr = {};",
+          "corect": false
+        },
+        {
+          "text": "var arr = [null];",
+          "corect": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "intrebare": "Ce metoda este folosită pentru a adăuga un element la sfârșitul unui array în JavaScript?",
+      "raspunsuri": [
+        {
+          "text": "push()",
+          "corect": true
+        },
+        {
+          "text": "add()",
+          "corect": false
+        },
+        {
+          "text": "insert()",
+          "corect": false
+        },
+        {
+          "text": "append()",
+          "corect": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "intrebare": "Care este rezultatul următoarei expresii: typeof null?",
+      "raspunsuri": [
+        {
+          "text": "'object'",
+          "corect": true
+        },
+        {
+          "text": "'null'",
+          "corect": false
+        },
+        {
+          "text": "'undefined'",
+          "corect": false
+        },
+        {
+          "text": "'string'",
+          "corect": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "intrebare": "Ce metoda este folosită pentru a returna valoarea absolută a unui număr în JavaScript?",
+      "raspunsuri": [
+        {
+          "text": "Math.abs()",
+          "corect": true
+        },
+        {
+          "text": "Math.absolute()",
+          "corect": false
+        },
+        {
+          "text": "Math.value()",
+          "corect": false
+        },
+        {
+          "text": "Math.absoluteValue()",
+          "corect": false
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "intrebare": "Ce operator este folosit pentru a verifica egalitatea strictă în JavaScript?",
+      "raspunsuri": [
+        {
+          "text": "===",
+          "corect": true
+        },
+        {
+          "text": "==",
+          "corect": false
+        },
+        {
+          "text": "=",
+          "corect": false
+        },
+        {
+          "text": "!==",
+          "corect": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "intrebare": "Ce metoda este folosită pentru a transforma un șir de caractere în litere mari în JavaScript?",
+      "raspunsuri": [
+        {
+          "text": "toUpperCase()",
+          "corect": true
+        },
+        {
+          "text": "toUpper()",
+          "corect": false
+        },
+        {
+          "text": "toUpperCaseCase()",
+          "corect": false
+        },
+        {
+          "text": "toCase()",
+          "corect": false
+        }
+      ]
+    }
+  ]
+}
