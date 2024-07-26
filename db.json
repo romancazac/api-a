@@ -1301,7 +1301,7 @@
           {
               "id": 6,
               "title": "Noutati",
-              "link": "",
+              "link": "/news",
               "icon": "icon-support"
           },
           {
@@ -1320,13 +1320,13 @@
       "navBottom": [
           {
               "id": 1,
-              "title": "Sună la +373 69 845 845",
-              "link": "tel:+37369845845",
+              "title": "Sună la +373 69 000 000",
+              "link": "tel:+37369000000",
               "icon": "icon-phone"
           },
           {
               "id": 2,
-              "title": "office@minicode.md",
+              "title": "office@test.md",
               "link": "#",
               "icon": "icon-mail"
           },
@@ -1610,7 +1610,7 @@
       "label": "Cu siguranță, împreună!"
   },
   "meta": {
-      "title": "Minicode - Solutii digitale inovatoare",
+      "title": "Solutii digitale inovatoare",
       "descr": "Partenerul tău de încredere pentru dezvoltare software personalizată și optimizare a proceselor de afaceri.",
       "keyWords": "încredere,Solutii,dezvoltare",
       "author": "Cazac Roman"
